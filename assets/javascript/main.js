@@ -168,7 +168,7 @@ function aplastabomba(a){
     setTimeout(()=>{
         a.classList.remove("explo")
         cleanModal()
-        yourloose("BOOOM")
+        yourloose("Te exploto en toda la cara")
         modalContent[0].appendChild(newP(`Your Final Score is : ${calculateScore()} seconds`))
         addUser()
         resetGame()
